@@ -1,0 +1,896 @@
+body.page-Main_Page h1 {
+    display: none
+}
+
+a:visited {
+    color: #6e9a7d
+}
+
+h1,h2 {
+    border-bottom: 0
+}
+
+code {
+    background-color: #121212 !important;
+    color: white !important
+}
+
+pre:not(.wikiEditor-ui .CodeMirror pre) {
+    border: 1px solid #8ebda4 !important;
+    background-color: #121212 !important;
+    color: white !important
+}
+
+textarea#wpNotes {
+    background-color: #4c4c4c !important
+}
+
+.mw-confirmaccount-bar {
+    border: 1px solid #a2a9b1;
+    background-color: #111
+}
+
+.mw-confirmaccount-type-0 {
+    background-color: transparent
+}
+
+table {
+    background: rgb(9,9,8);
+    z-index: 10
+}
+
+th {
+    background: rgb(9,9,8)
+}
+
+tr {
+    background: #121212;
+    padding: 0.5em
+}
+
+td {
+    padding: 0.5em;
+    background: #191919
+}
+
+td a img {
+    padding: 0.2em 0.4em
+}
+
+.mw-headline {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.4
+}
+
+.noautonum .tocnumber {
+    display: none
+}
+
+ul.tabbernav {
+    margin: 0;
+    padding: 3px 0;
+    border-bottom: none;
+    font: bold 15px 'Arial',sans-serif
+}
+
+ul.tabbernav li a {
+    padding: 5px 0.9em;
+    margin-left: 3px;
+    border: none;
+    border-bottom: none;
+    background: rgb(18,18,18);
+    text-decoration: none
+}
+
+ul.tabbernav li a:link {
+    color: #96906d
+}
+
+ul.tabbernav li.tabberactive a {
+    background-color: rgb(9,9,8);
+    border-bottom: none;
+    border-top: 3px solid #e2d9a4;
+    color: #e2d9a4
+}
+
+.tabber .tabbertab {
+    padding: 2px;
+    border: none
+}
+
+.connectionpanel {
+    padding: 0.5rem 0.33rem;
+    border-top: 1px solid #506256;
+    border-left: 1px solid #16251e;
+    border-right: 1px solid #16251e;
+    border-bottom: 1px solid #100e0e;
+    border-radius: 0.3rem;
+    box-shadow: 0 3px 5px #070e0c;
+    background: #1d2924;
+    background: -moz-linear-gradient(180deg,#1d2924 0%,#151e19 10%,#111a15 100%);
+    background: -webkit-linear-gradient(180deg,#1d2924 0%,#151e19 10%,#111a15 100%);
+    background: linear-gradient(180deg,#1d2924 0%,#151e19 10%,#111a15 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d2924",endColorstr="#111a15",GradientType=1);
+    height: 29rem
+}
+
+.connectionpanel > * > tr,.connectionpanel > * > tr > th {
+    background: transparent
+}
+
+.connectionpanel > * > tr > th {
+    height: 1px
+}
+
+.connectionpanel > * > tr {
+    vertical-align: top
+}
+
+.connectionpanel > * > tr > td {
+    box-shadow: inset 0px 0px 20px rgba(0,0,0,0.5);
+    border-radius: 0.5rem;
+    border-left: 1px solid #33463e;
+    border-right: 1px solid #33463e
+}
+
+.connectionpanel-redlabel,.connectionpanel-bluelabel {
+    padding: 0.001em 0.48em 0.001em 0.48em;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline;
+    box-shadow: 0 0 1.5px 1px #070e0c;
+    border: 2px solid;
+    text-shadow: 0 1px black;
+    font-family: 'Exo 2'
+}
+
+.connectionpanel-redlabel {
+    background: #b74f4f;
+    border-color: #A94848 #783333 #783333
+}
+
+.connectionpanel-bluelabel {
+    background: #38678f;
+    border-color: #305A7C #1E364B #1E364B
+}
+
+.connectionpanel-table1 td {
+    box-shadow: none;
+    border-radius: 0;
+    border: 0
+}
+
+.connectionpanel-table2 td {
+    box-shadow: none;
+    border-radius: 0;
+    border: 0
+}
+
+.connectionpanel-table3 td {
+    box-shadow: none;
+    border-radius: 0;
+    border: 0
+}
+
+.connectionpanel-table4 td {
+    box-shadow: none;
+    border-radius: 0;
+    border: 0
+}
+
+.connectionpanel-table1,.connectionpanel-table1 tr,.connectionpanel-table1 td {
+    background: transparent
+}
+
+.connectionpanel-table2,.connectionpanel-table2 tr,.connectionpanel-table2 td {
+    background: transparent;
+    z-index: 100 !important
+}
+
+.connectionpanel-table3,.connectionpanel-table3 tr,.connectionpanel-table3 td {
+    background: transparent
+}
+
+.connectionpanel-table4,.connectionpanel-table4 tr,.connectionpanel-table4 td {
+    background: transparent;
+    z-index: 100 !important
+}
+
+.connectionpanel-table3,.connectionpanel-table4 {
+    margin-top: 1.85rem !important
+}
+
+.version-control {
+    float: right;
+    padding: 0em 0.0em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    background-color: #191919;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.5em;
+    min-width: 20%;
+    max-width: 30%
+}
+
+.mp-section {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    padding: 1em;
+    border: 1px solid #080808;
+    background: rgb(9,9,8);
+    background: -moz-radial-gradient(circle,rgba(9,9,8,1) 0%,rgba(9,9,8,1) 50%,rgba(9,9,8,1) 100%);
+    background: -webkit-radial-gradient(circle,rgba(9,9,8,1) 0%,rgba(9,9,8,1) 50%,rgba(9,9,8,1) 100%);
+    background: radial-gradient(circle,rgba(9,9,8,1) 0%,rgba(9,9,8,1) 50%,rgba(9,9,8,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#090908",endColorstr="#090908",GradientType=1)
+}
+
+.universal-nav {
+    border-radius: 1em;
+    width: 100%;
+    margin: auto;
+    background: transparent;
+    padding-left: 15%;
+    padding-right: 15%
+}
+
+.universal-nav td {
+    padding: 0.5em 5%;
+    text-align: left
+}
+
+.universal-nav .category-header {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: left;
+    text-transform: uppercase
+}
+
+.category-header .mw-collapsible-text {
+    text-transform: none
+}
+
+.universal-nav .mw-collapsible {
+    width: 100%;
+    margin: auto
+}
+
+.mw-collapsible th {
+    font-weight: 700;
+    font-size: 0.95rem;
+    line-height: 1.4
+}
+
+.universal-nav h1,.universal-nav h2 {
+    border-bottom: 0
+}
+
+.universal-nav table {
+    background: rgb(9,9,8);
+    z-index: 100;
+    border: 1px solid #2f2f2f
+}
+
+.universal-nav th {
+    background: rgb(9,9,8)
+}
+
+.universal-nav tr {
+    background: #121212;
+    padding: 0.5em;
+}
+
+.universal-nav td {
+    
+    background: #121212
+}
+
+.universal-nav td a img {
+    padding: 0.2em 1em
+}
+
+.universal-nav th {
+    padding: 0.5rem
+}
+
+.universal-nav td ul {
+    list-style: none;
+    text-align: justify;
+    margin: 0;
+    background-color: #121212;
+    padding: 0.3rem 0
+}
+
+.universal-nav td ul li {
+    margin: 0
+}
+
+.universal-nav td ul li a {
+    vertical-align: middle
+}
+
+.universal-nav td ul li > :first-child {
+    display: inline-flex;
+    min-width: 35px;
+    min-height: 30px;
+    justify-content: center;
+    align-items: center
+}
+
+.universal-nav td ul li img {
+    vertical-align: middle;
+    max-width: 30px;
+    max-height: 25px;
+    width: auto;
+    height: auto;
+    padding-left: 0;
+    padding-right: 0
+}
+
+.infobox {
+    clear: right;
+    min-width: 20%;
+    max-width: 30%;
+    margin-left: 5%
+}
+
+.infobox th {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.4
+}
+
+.infobox tr {
+    font-size: small;
+    font-weight: normal
+}
+
+sup,sub {
+    font-size: 0.7rem
+}
+
+.mw-body-content {
+    font-size: 0.85rem;
+    line-height: 1.6
+}
+
+.mw-body-content p {
+    overflow-wrap: break-word
+}
+
+.universal-nav td ul {
+    -webkit-column-count: 1;
+    -webkit-column-gap: 1%;
+    -moz-column-count: 1;
+    -moz-column-gap: 1%;
+    column-count: 1;
+    column-gap: 1%
+}
+
+@media all and (max-width: 768px) {
+    .universal-nav td ul {
+        -webkit-column-count:1;
+        -webkit-column-gap: 1%;
+        -moz-column-count: 1;
+        -moz-column-gap: 1%;
+        column-count: 1;
+        column-gap: 1%
+    }
+}
+
+@media all and (min-width: 992px) {
+    .universal-nav td ul {
+        -webkit-column-count:2;
+        -webkit-column-gap: 1%;
+        -moz-column-count: 2;
+        -moz-column-gap: 1%;
+        column-count: 2;
+        column-gap: 1%
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .universal-nav td ul {
+        -webkit-column-count:3;
+        -webkit-column-gap: 1%;
+        -moz-column-count: 3;
+        -moz-column-gap: 1%;
+        column-count: 3;
+        column-gap: 1%
+    }
+}
+
+table.mw_metadata th,table.wikitable > * > tr > th {
+    background-color: #373c35;
+    border: 1px solid #767d71;
+    padding: 5px
+}
+
+table.mw_metadata td,table.mw_metadata th,table.wikitable,table.wikitable > * > tr > th,table.wikitable > * > tr {
+    border: 1px solid #767d71 !important
+}
+
+table.mw_metadata td,table.mw_metadata th,table.wikitable,table.wikitable > * > tr > th,table.wikitable > * > tr > td,pre {
+    border-color: #767d71;
+    border-left: none;
+    border-right: none
+}
+
+.responsive-table,.responsive-table table {
+    border: 0 !important;
+    box-sizing: border-box
+}
+
+.responsive-table tbody,.responsive-table tr,.responsive-table th,.responsive-table td {
+    padding: 0.5em;
+    white-space: normal;
+    box-sizing: border-box
+}
+
+.responsive-table tbody,.responsive-table tr,.responsive-table td {
+    text-align: left
+}
+
+.responsive-table th {
+    text-align: center
+}
+
+.responsive-table tbody tr {
+    margin-bottom: 0.5em
+}
+
+.responsive-table tbody tr:last-of-type {
+    margin-bottom: 0
+}
+
+@media (max-width: 75em) {
+    .responsive-table th,.responsive-table td {
+        padding:0.75em
+    }
+}
+
+@media (max-width: 62em) {
+    .infobox {
+        margin-left:1%
+    }
+
+    .responsive-table,.responsive-table table {
+        font-size: 1em;
+        width: 100% !important;
+        float: left;
+        max-width: 100%
+    }
+
+    .responsive-table th,.responsive-table td {
+        padding: 0.75em 0.5em
+    }
+}
+
+@media (max-width: 52em) {
+    .infobox {
+        margin-left:0
+    }
+
+    .responsive-table,.responsive-table table {
+        font-size: 0.9em;
+        width: 100% !important
+    }
+
+    .responsive-table tr {
+        display: table-row
+    }
+
+    .responsive-table th,.responsive-table td {
+        display: table-cell;
+        padding: 1em
+    }
+
+    .responsive-table tbody {
+        display: table-row-group
+    }
+
+    .responsive-table tbody tr {
+        display: table-row;
+        border-width: 1px
+    }
+
+    .responsive-table tbody td {
+        text-align: left
+    }
+}
+
+.mainleft {
+    float: left;
+    width: 25%
+}
+
+.mainright {
+    float: right;
+    width: 25%
+}
+
+.maincenter {
+    margin: auto;
+    width: 48%
+}
+
+div#mw-panel li a[href="https://discord.gg/undertow"] {
+    display: inline-block;
+    position: relative;
+    height: 20px;
+    width: 119px;
+    margin-top: 5px
+}
+
+div#mw-panel li a[href="https://discord.gg/undertow"]::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    background: url(https://discordapp.com/api/guilds/103209684680323072/embed.png) no-repeat
+}
+
+.connectionpanel-table1 {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    height: 20px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse
+}
+
+.connectionpanel-table1 td a img {
+    padding: 0
+}
+
+.connectionpanel-table2 {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 125px;
+    height: 20px;
+    z-index: 10;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse
+}
+
+.connectionpanel-table2,.connectionpanel-table2 tr,.connectionpanel-table2 td {
+    background: transparent
+}
+
+.connectionpanel-table3 {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    height: 20px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse
+}
+
+.connectionpanel-table3 td a img {
+    padding: 0
+}
+
+.connectionpanel-table4 {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 125px;
+    height: 20px;
+    z-index: 10;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse
+}
+
+.connectionpanel-table4,.connectionpanel-table4 tr,.connectionpanel-table4 td {
+    background: transparent
+}
+
+.cp-tooltip {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transition-timing-function: ease-out;
+    background-color: rgba(255,80,0,0);
+    color: rgba(255,255,255,0);
+    border: 1px solid rgba(255,255,255,0);
+    transform: translate(50%,0) translateZ(0) scale(1.0,1.0);
+    text-align: center;
+    overflow: hidden;
+    z-index: 5;
+    min-width: 160px;
+    max-width: 200px
+}
+
+.cp-hover:hover + .cp-tooltip {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2px;
+    border: 1px solid #ffffff;
+    transform: translate(50%,-100%) translateZ(0) scale(1.0,1.0)
+}
+
+.cp-hover {
+    transform: translate(0,0) translateZ(0) scale(1.0,1.0);
+    z-index: 200;
+    background-color: transparent
+}
+
+.noborder {
+    background: transparent
+}
+
+.noborder tr {
+    background: transparent
+}
+
+.noborder td {
+    background: transparent
+}
+
+.key {
+    display: inline-block;
+    white-space: nowrap
+}
+
+.key kbd {
+    padding: 0.1em 0.6em 0.1em 0.6em;
+    margin-right: 2px;
+    font-size: 85%;
+    font-family: inherit;
+    font-style: normal;
+    border-radius: .2em
+}
+
+.keysDark {
+    color: black;
+    border: 1px solid rgb(170,170,170);
+    box-shadow: 0.1em 0.2em 0.2em rgb(221,221,221);
+    background-image: linear-gradient(to bottom,rgb(238,238,238),rgb(249,249,249),rgb(238,238,238));
+    background-color: rgb(249,249,249)
+}
+
+.keysLight {
+    color: white;
+    border: 1px solid rgb(0,0,0);
+    box-shadow: 0.1em 0.2em 0.2em rgb(0,0,0);
+    background-image: linear-gradient(to bottom,rgb(0,0,0),rgb(15,15,15),rgb(30,30,30));
+    background-color: rgb(30,30,30)
+}
+
+.notice-template {
+    margin: 0 auto 2px auto;
+    background: #0B0B09;
+    border-radius: 4px;
+    border-bottom: 2px solid #0B100F
+}
+
+.notice-template td {
+    background: #0B0B09
+}
+
+.wikiEditor-ui-toolbar .section-help .page-table td.cell-description,.wikiEditor-ui-toolbar .section-help .page-table td.cell-syntax,.wikiEditor-ui-toolbar .section-help .page-table td.cell-result {
+    color: white
+}
+
+.wikiEditor-ui-toolbar .page-characters div span {
+    color: white
+}
+
+.wikiEditor-ui-toolbar .page-characters div span:hover {
+    color: black
+}
+
+.wikiEditor-ui-toolbar .section-help .page-table td.cell-description,.wikiEditor-ui-toolbar .section-help .page-table td.cell-syntax,.wikiEditor-ui-toolbar .section-help .page-table td.cell-result {
+    color: white
+}
+
+.wikiEditor-ui-toolbar .page-characters div span {
+    color: white
+}
+
+.wikiEditor-ui-toolbar .page-characters div span:hover {
+    color: black
+}
+
+.wikiEditor-ui-toolbar .page-table th,.wikiEditor-ui-toolbar .page-table td {
+    color: #b6c1ca
+}
+
+.wikiEditor-ui-toolbar .booklet > .index > :hover {
+    background-color: #1a1a1a
+}
+
+.wikiEditor-ui-toolbar .booklet > .index > .current {
+    background-color: #1a1a1a;
+    color: #b1a980
+}
+
+table.hovering,table.hovering > thead {
+    position: sticky
+}
+
+table.hovering > thead {
+    background-color: red !important;
+    inset-block-start: 0
+}
+
+div.drilldown-filters-wrapper {
+    background-color: #101614;
+    color: #e4d9a7
+}
+
+table.jexcel > thead > tr > td,table.jexcel > tbody > tr > td:first-child {
+    background-color: #090908
+}
+
+body .mw-wiki-logo {
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+body .CodeMirror-selected {
+    background: #8888d9
+}
+
+body .CodeMirror-focused .CodeMirror-selected {
+    background: rgba(60,75,120,0.8)
+}
+
+body .CodeMirror-crosshair {
+    cursor: crosshair
+}
+
+body .CodeMirror-line::selection,.CodeMirror-line > span::selection,.CodeMirror-line > span > span::selection {
+    background: rgba(60,75,120,0.8)
+}
+
+body .CodeMirror-line::-moz-selection,.CodeMirror-line > span::-moz-selection,.CodeMirror-line > span > span::-moz-selection {
+    background: rgba(60,75,120,0.8)
+}
+
+body .cm-mw-template {
+    color: #c0e;
+    font-weight: normal
+}
+
+body .cm-mw-template-name {
+    color: #c0e;
+    font-weight: bold
+}
+
+body .cm-mw-template-name-mnemonic {
+    font-weight: normal
+}
+
+body .cm-mw-template-argument-name {
+    color: #c0e;
+    font-weight: bold
+}
+
+body .cm-mw-template-delimiter {
+    color: #c0e;
+    font-weight: bold
+}
+
+body .cm-mw-template-bracket {
+    color: #c0e;
+    font-weight: bold
+}
+
+body .wikiEditor-ui .CodeMirror pre,body .wikiEditor-ui .CodeMirror .CodeMirror-lines {
+    background-color: #151515 !important
+}
+
+body .cm-mw-doubleUnderscore,.cm-mw-signature,.cm-mw-hr {
+    background-color: #333
+}
+
+body .CodeMirror {
+    background-color: #151515
+}
+
+body select.oo-ui-inputWidget-input.oo-ui-indicator-down {
+    color: #ddd
+}
+
+body select.oo-ui-inputWidget-input.oo-ui-indicator-down:hover {
+    color: #eee
+}
+
+body select.oo-ui-inputWidget-input.oo-ui-indicator-down:selected {
+    color: #ded
+}
+
+body h1 .mw-headline {
+    font-size: 1.5rem
+}
+
+body h2 .mw-headline {
+    font-size: 1.32rem
+}
+
+body h3 .mw-headline {
+    font-size: 1.18rem
+}
+
+body h4 .mw-headline {
+    font-size: 1.07rem
+}
+
+body h5 .mw-headline {
+    font-size: 0.9rem
+}
+
+body h6 .mw-headline {
+    font-size: 0.7rem
+}
+
+body .ace-tm .ace_print-margin {
+    background: #88888866
+}
+
+body .wikiEditor-ui .wikiEditor-ui-view {
+    border: 1px solid #6a776a
+}
+
+body .wikiEditor-ui-toolbar .group {
+    border-right: 1px solid #6a776a
+}
+
+body .wikiEditor-ui .wikiEditor-ui-top {
+    border-bottom: 1px solid #6a776a
+}
+
+body .wikiEditor-ui-toolbar .sections .section {
+    border-top: 1px solid #6a776a
+}
+
+body .CodeMirror-linenumber {
+    background: #121212
+}
+
+body .CodeMirror-gutters {
+    background: #121212;
+    width: 35px;
+    border-right: 1px solid #444
+}
+
+body .CodeMirror-gutter .CodeMirror-linenumbers {
+    width: 35px !important
+}
+
+body .cm-mw-matchingbracket {
+    background: #222;
+    box-shadow: inset 0 0 1px 1px #666
+}
+
+body .cm-mw-link-pagename,body .cm-mw-link-bracket,body .cm-mw-link-delimiter,body .cm-mw-extlink,body .cm-mw-free-extlink,body .cm-mw-extlink-protocol,body .cm-mw-free-extlink-protocol,body .cm-mw-extlink-bracket {
+    color: #0076dd
+}
+
+body .cm-mw-doubleUnderscore,body .cm-mw-signature,body .cm-mw-hr,body .cm-mw-apostrophes-bold,body .cm-mw-apostrophes-italic {
+    color: #0099cc
+}
+
+body #mw-navigation #mw-head #p-personal ul {
+    display: inline-block;
+    padding: 0
+}

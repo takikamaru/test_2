@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="jQuery.js"></script>
+ <!-- Bootstrap reboot (для сброса стилей) -->
+ <link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
+
+ <!-- Bootstrap сетка -->
+ <link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+
+ <!-- Шрифты с Google Fonts -->
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+ <!-- Стили сайта -->
+ <link rel="stylesheet" href="css/styles.css">
+ <link rel="shortcut icon" href="Submarines.jpg"/>
+</head>
+<body>
+<nav class="navbar" style="background-image: url('pick/Barotrauma_menu.png')">
+	 <div class="container">
+		<a href="index.html" class="navbar-brand" style="max-width:330px;"><img src="pick/Barotrauma_logo.png" alt="" width="100%" style="padding-top: 5%"></a>
+			<div class="navbar-wrap">
+				<a href="Feedback.html" class="callback">Feedback</a>
+			</div>
+	 </div>
+ </nav>
+ 
+
+ <header class="header" style="background-image: url('pick/Barotrauma_10.png')">
+<table class="test_1" style="background:transparent; max-width:100%"><tr><td>
+   <form id="test" method="get" onsubmit = "return false">
+   
+      <h1>FeedBack</h1>
+
+      <label for="userName">Имя</label><br/>
+      <input type="text" name="userName" placeholder="Введите псевдоним" required autofocus/><br/>
+      <label for="email">Почта</label><br/>
+	  <input type="text" name="email" placeholder="Введите эл.почту" required autofocus/><br/>
+	  <br/>
+      
+	  
+      <input type="submit" value="Отправить">
+	
+	</form>
+</td></tr></table>
+
+<script>
+
+$("document").ready(function()
+{
+
+	$("#test").on("submit",function()
+	{
+		let dataForm = $(this).serialize()
+		$.ajax
+		({
+			url:'/query.php',
+			method: 'get',
+			dataType: 'html',
+			data: dataForm,
+			success: function(data)
+			{
+				console.log(data);
+			}	
+		})
+		
+	})
+})
+
+</script>
+
+<script src="index.js"></script>
+  
+  
+  
+  
+ </header>
+</body>
+</html>
